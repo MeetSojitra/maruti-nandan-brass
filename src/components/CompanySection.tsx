@@ -17,7 +17,7 @@ const CompanySection = () => {
       icon: Target,
       title: "Precision",
       description: "Uncompromising accuracy in every component we manufacture",
-      color: "text-secondary"
+      color: "text-accent"
     },
     {
       icon: Handshake,
@@ -29,13 +29,13 @@ const CompanySection = () => {
       icon: Star,
       title: "Excellence",
       description: "Continuous improvement and innovation in our processes",
-      color: "text-highlight"
+      color: "text-accent"
     },
     {
       icon: Users,
       title: "Reliability",
       description: "Consistent quality and on-time delivery you can count on",
-      color: "text-primary"
+      color: "text-accent"
     }
   ];
 
