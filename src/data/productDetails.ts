@@ -47,7 +47,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Standards: EN 1254, DVGW approved"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_ppr_insert.webp",
+    image: "assets/details/brass_ppr_insert.webp",
     technicalSheet: "/downloads/ppr-insert-specifications.pdf",
     catalog: "/downloads/ppr-insert-catalog.pdf"
   },
@@ -82,7 +82,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Threading: Metric, BSP, NPT available"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_precision_tured.webp",
+    image: "assets/details/brass_precision_tured.webp",
     technicalSheet: "/downloads/precision-turned-components-specs.pdf",
     catalog: "/downloads/precision-components-catalog.pdf"
   },
@@ -121,7 +121,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Coating: Tin plating or nickel plating"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_ele_fitting.webp",
+    image: "assets/details/brass_ele_fitting.webp",
     technicalSheet: "/downloads/electrical-fittings-specs.pdf",
     catalog: "/downloads/electrical-components-catalog.pdf"
   },
@@ -160,7 +160,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Certification: CE, WRAS, NSF"
     ],
     cardImg: "",
-    image: "/src/assets/details/valves.webp",
+    image: "assets/details/valves.webp",
     technicalSheet: "/downloads/valves-specifications.pdf",
     catalog: "/downloads/valves-catalog.pdf"
   },
@@ -195,7 +195,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Surface Finish: Ra 1.6 to Ra 3.2"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_bush.webp",
+    image: "assets/details/brass_bush.webp",
     technicalSheet: "/downloads/brass-bush-specifications.pdf"
   },
   "brass-forged-parts": {
@@ -229,7 +229,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Heat Treatment: Available"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_forged_parts.webp",
+    image: "assets/details/brass_forged_parts.webp",
     technicalSheet: "/downloads/forged-parts-specifications.pdf",
     catalog: "/downloads/forged-components-catalog.pdf"
   },
@@ -264,7 +264,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Testing: Salt spray, Torque testing"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_hardware.webp",
+    image: "assets/details/brass_hardware.webp",
     catalog: "/downloads/brass-hardware-catalog.pdf"
   },
   "brass-sanitary": {
@@ -298,7 +298,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Size Range: 1/2\" to 4\""
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_sanitary.webp",
+    image: "assets/details/brass_sanitary.webp",
     technicalSheet: "/downloads/sanitary-fittings-specs.pdf",
     catalog: "/downloads/sanitary-products-catalog.pdf"
   },
@@ -333,7 +333,7 @@ export const productDetails: Record<string, ProductDetail> = {
       "Standards: DIN, ISO, ANSI compliant"
     ],
     cardImg: "",
-    image: "/src/assets/details/brass_fastner.webp",
+    image: "assets/details/brass_fastner.webp",
     technicalSheet: "/downloads/brass-fasteners-specs.pdf",
     catalog: "/downloads/fasteners-catalog.pdf"
   }
@@ -370,8 +370,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Head Types: Flush, Raised, Countersunk",
       "Temperature Resistance: Up to 120°C"
     ],
-    cardImg: "/src/assets/products/heat_ultra_sonic.webp",
-    image: "/src/assets/details/heat_ultra_sonic_insert.webp"
+    cardImg: "assets/products/heat_ultra_sonic.webp",
+    image: "assets/details/heat_ultra_sonic_insert.webp"
   },
   "press-in-insert": {
     id: "press-in-insert",
@@ -401,8 +401,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Finish: Natural brass or plated",
       "Installation Force: 1-5 kN"
     ],
-    cardImg: "/src/assets/products/press_in_inserts.webp",
-    image: "/src/assets/details/press_in_insert.webp"
+    cardImg: "assets/products/press_in_inserts.webp",
+    image: "assets/details/press_in_insert.webp"
   },
   "moulded-in-insert": {
     id: "moulded-in-insert",
@@ -432,8 +432,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Knurl Types: Diamond, Straight, Helical",
       "Tolerance: ±0.02mm"
     ],
-    cardImg: "/src/assets/products/moulded_inserts.webp",
-    image: "/src/assets/details/moulded_insert.webp"
+    cardImg: "assets/products/moulded_inserts.webp",
+    image: "assets/details/moulded_insert.webp"
   },
   "self-tapping-insert": {
     id: "self-tapping-insert",
@@ -463,8 +463,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Point Types: Sharp, Blunt, Cutting",
       "Material Thickness: 1-10mm"
     ],
-    cardImg: "/src/assets/products/self_tipping_insert.webp",
-    image: "/src/assets/details/self_tapping.webp"
+    cardImg: "assets/products/self_tipping_insert.webp",
+    image: "assets/details/self_tapping.webp"
   },
   // BRASS FITTINGS sub-products
   "electrofusion-fittings": {
@@ -495,8 +495,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Temperature Range: -20°C to +60°C",
       "Standards: ISO 13950, EN 12201"
     ],
-    cardImg: "/src/assets/products/brass_electrofusion_fittings.webp",
-    image: "/src/assets/details/electrofusion_fitting.webp"
+    cardImg: "assets/products/brass_electrofusion_fittings.webp",
+    image: "assets/details/electrofusion_fitting.webp"
   },
   "hose-nipple-fittings": {
     id: "hose-nipple-fittings",
@@ -526,8 +526,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "End Connections: NPT, BSP, JIC",
       "Temperature: -40°C to +120°C"
     ],
-    cardImg: "/src/assets/products/hose_nipples.webp",
-    image: "/src/assets/details/hose_nipple.webp"
+    cardImg: "assets/products/hose_nipples.webp",
+    image: "assets/details/hose_nipple.webp"
   },
   "flare-fittings": {
     id: "flare-fittings",
@@ -557,8 +557,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Standards: SAE J514, DIN 2353",
       "Tube Wall Thickness: 0.5-3mm"
     ],
-    cardImg: "/src/assets/products/flare_fittings.webp",
-    image: "/src/assets/details/flare_fittings.webp"
+    cardImg: "assets/products/flare_fittings.webp",
+    image: "assets/details/flare_fittings.webp"
   },
   "air-brake-fittings": {
     id: "air-brake-fittings",
@@ -588,8 +588,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Temperature: -40°F to +200°F",
       "Vibration Test: MIL-STD-810"
     ],
-    cardImg: "/src/assets/products/air_brake_fitting.webp",
-    image: "/src/assets/details/air_brake.webp"
+    cardImg: "assets/products/air_brake_fitting.webp",
+    image: "assets/details/air_brake.webp"
   },
   "brass-anchor": {
     id: "brass-anchor",
@@ -619,8 +619,8 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Standards: ISO 4762, DIN 912",
       "Corrosion Test: 1000+ hours salt spray"
     ],
-    cardImg: "/src/assets/products/brass_anchors_card.png",
-    image: "/src/assets/details/sub_brass_anchors.webp",
+    cardImg: "assets/products/brass_anchors_card.png",
+    image: "assets/details/sub_brass_anchors.webp",
     technicalSheet: "/downloads/brass-anchor-specs.pdf",
     catalog: "/downloads/anchor-fittings-catalog.pdf"
   }

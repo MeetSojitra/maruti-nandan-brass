@@ -35,21 +35,21 @@ const DetailedProductListings = () => {
           name: "PPR Female Threaded Insert",
           description: "Brass insert with female BSP threading for PPR pipe connections. Material: CW617N brass alloy, Thread: BSP 1/2\" to 2\", Size range: 20mm to 63mm",
           specifications: ["Material: CW617N Brass", "Thread: BSP Female", "Size: 20-63mm", "Pressure: 16 bar", "Temperature: -20°C to 95°C"],
-          image: "/src/assets/products/brass-ppr-insert.jpg",
+          image: "assets/products/brass-ppr-insert.jpg",
           isPopular: true
         },
         {
           name: "CPVC Male Threaded Insert",
           description: "Precision-engineered brass insert for CPVC pipe systems with male threading",
           specifications: ["Material: CW617N Brass", "Thread: BSP Male", "Size: 15-50mm", "Pressure: 25 bar", "Temperature: -10°C to 90°C"],
-          image: "/src/assets/products/brass-ppr-insert.jpg",
+          image: "assets/products/brass-ppr-insert.jpg",
           isNew: true
         },
         {
           name: "UPVC Compression Insert",
           description: "Compression-type brass insert for UPVC applications with enhanced sealing",
           specifications: ["Material: CW614N Brass", "Type: Compression", "Size: 16-32mm", "Pressure: 16 bar", "Seal: EPDM O-ring"],
-          image: "/src/assets/products/brass-ppr-insert.jpg",
+          image: "assets/products/brass-ppr-insert.jpg",
           isCustomizable: true
         }
       ]
@@ -64,14 +64,14 @@ const DetailedProductListings = () => {
           name: "Threaded Brass Insert",
           description: "Standard threaded brass insert for general applications with metric and BSP threading options",
           specifications: ["Material: CW617N Brass", "Thread: Metric/BSP", "Size: M6-M24", "Finish: Natural/Nickel", "Application: General purpose"],
-          image: "/src/assets/products/brass-valve.jpg",
+          image: "assets/products/brass-valve.jpg",
           isPopular: true
         },
         {
           name: "Heat-Set Brass Insert",
           description: "Heat-activated brass insert for plastic molding applications",
           specifications: ["Material: CW614N Brass", "Type: Heat-set", "Size: M3-M16", "Installation: Heat press", "Temp: 200-250°C"],
-          image: "/src/assets/products/brass-valve.jpg"
+          image: "assets/products/brass-valve.jpg"
         }
       ]
     },
@@ -85,27 +85,27 @@ const DetailedProductListings = () => {
           name: "Brass Elbow Fitting",
           description: "90-degree brass elbow fitting for pipe direction changes with BSP threading",
           specifications: ["Material: CW617N Brass", "Angle: 90°", "Thread: BSP", "Size: 1/8\" to 2\"", "Pressure: 16 bar"],
-          image: "/src/assets/products/electrical-fittings.jpg",
+          image: "assets/products/electrical-fittings.jpg",
           isPopular: true
         },
         {
           name: "Brass Tee Fitting",
           description: "Three-way brass tee fitting for pipe branching applications",
           specifications: ["Material: CW617N Brass", "Type: Equal Tee", "Thread: BSP", "Size: 1/4\" to 1.5\"", "Pressure: 20 bar"],
-          image: "/src/assets/products/electrical-fittings.jpg"
+          image: "assets/products/electrical-fittings.jpg"
         },
         {
           name: "Brass Coupler",
           description: "Straight brass coupling for joining two pipes of the same diameter",
           specifications: ["Material: CW617N Brass", "Type: Equal Socket", "Thread: BSP", "Size: 1/8\" to 2\"", "Connection: Female-Female"],
-          image: "/src/assets/products/electrical-fittings.jpg",
+          image: "assets/products/electrical-fittings.jpg",
           isCustomizable: true
         },
         {
           name: "Brass Reducer",
           description: "Reducing brass fitting for connecting pipes of different diameters",
           specifications: ["Material: CW617N Brass", "Type: Reducing Socket", "Thread: BSP", "Size: 1/4\"x1/8\" to 2\"x1.5\"", "Pressure: 16 bar"],
-          image: "/src/assets/products/electrical-fittings.jpg"
+          image: "assets/products/electrical-fittings.jpg"
         }
       ]
     },
@@ -119,20 +119,20 @@ const DetailedProductListings = () => {
           name: "Cable Gland",
           description: "Brass cable gland for secure cable entry with IP68 protection rating",
           specifications: ["Material: CW617N Brass", "Thread: Metric/PG", "Size: M12-M63", "IP Rating: IP68", "Cable Range: 3-18mm"],
-          image: "/src/assets/products/electrical-fittings.jpg",
+          image: "assets/products/electrical-fittings.jpg",
           isPopular: true
         },
         {
           name: "Conduit Connector",
           description: "Brass conduit connector for joining electrical conduit to junction boxes",
           specifications: ["Material: CW617N Brass", "Thread: Metric", "Size: M16-M40", "Type: Straight", "Seal: NBR O-ring"],
-          image: "/src/assets/products/electrical-fittings.jpg"
+          image: "assets/products/electrical-fittings.jpg"
         },
         {
           name: "Earth Tag",
           description: "Brass earthing tag for electrical grounding applications",
           specifications: ["Material: CW617N Brass", "Thread: M20-M32", "Type: External", "Function: Earthing", "Standard: IEC"],
-          image: "/src/assets/products/electrical-fittings.jpg",
+          image: "assets/products/electrical-fittings.jpg",
           isNew: true
         }
       ]
@@ -147,21 +147,21 @@ const DetailedProductListings = () => {
           name: "Brass Shaft",
           description: "Precision-turned brass shaft with tight tolerance requirements for mechanical applications",
           specifications: ["Material: CW617N Brass", "Tolerance: ±0.01mm", "Surface: Ra 0.8", "Length: 10-500mm", "Diameter: 3-50mm"],
-          image: "/src/assets/products/turned-components.jpg",
+          image: "assets/products/turned-components.jpg",
           isCustomizable: true
         },
         {
           name: "Brass Bushing",
           description: "Precision brass bushing for bearing and sleeve applications",
           specifications: ["Material: CW614N Brass", "Tolerance: ±0.02mm", "Surface: Ra 1.6", "ID: 5-40mm", "OD: 8-50mm"],
-          image: "/src/assets/products/turned-components.jpg",
+          image: "assets/products/turned-components.jpg",
           isPopular: true
         },
         {
           name: "Brass Pin",
           description: "High-precision brass pin for mechanical assemblies and fixtures",
           specifications: ["Material: CW617N Brass", "Tolerance: ±0.005mm", "Surface: Ra 0.4", "Length: 5-100mm", "Diameter: 1-20mm"],
-          image: "/src/assets/products/turned-components.jpg"
+          image: "assets/products/turned-components.jpg"
         }
       ]
     },
@@ -175,20 +175,20 @@ const DetailedProductListings = () => {
           name: "Ball Valve",
           description: "Quarter-turn brass ball valve with lever handle for on/off flow control",
           specifications: ["Material: CW617N Brass", "Type: Full Port", "Size: 1/2\" to 2\"", "Pressure: 25 bar", "Handle: Lever"],
-          image: "/src/assets/products/brass-valve.jpg",
+          image: "assets/products/brass-valve.jpg",
           isPopular: true
         },
         {
           name: "Check Valve",
           description: "Spring-loaded brass check valve to prevent backflow in piping systems",
           specifications: ["Material: CW617N Brass", "Type: Spring Check", "Size: 1/4\" to 1.5\"", "Pressure: 16 bar", "Flow: Vertical/Horizontal"],
-          image: "/src/assets/products/brass-valve.jpg"
+          image: "assets/products/brass-valve.jpg"
         },
         {
           name: "Gate Valve",
           description: "Rising stem brass gate valve for full flow applications",
           specifications: ["Material: CW617N Brass", "Type: Rising Stem", "Size: 1/2\" to 2\"", "Pressure: 16 bar", "Operation: Manual"],
-          image: "/src/assets/products/brass-valve.jpg",
+          image: "assets/products/brass-valve.jpg",
           isCustomizable: true
         }
       ]

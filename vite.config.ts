@@ -15,14 +15,6 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' &&
     componentTagger(),
-    viteStaticCopy({
-      targets: [
-        {
-          src: '/src/assets/*', // copy everything from src/assets
-          dest: 'assets'       // put them in dist/assets
-        }
-      ]
-    })
   ].filter(Boolean),
   resolve: {
     alias: {

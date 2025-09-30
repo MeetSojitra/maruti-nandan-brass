@@ -4,7 +4,7 @@ export const productCategories = [
     title: "BRASS PPR/CPVC/UPVC INSERT",
     description: "High-quality brass inserts for plastic pipe systems with precision threading",
     totalProducts: 0,
-    image: "/src/assets/products/brass-ppr-insert.jpg",
+    image: "assets/products/brass-ppr-insert.jpg",
     color: "from-secondary/10 to-secondary/5",
     subProducts: []
   },
@@ -13,7 +13,7 @@ export const productCategories = [
     title: "BRASS INSERT",
     description: "General purpose brass inserts for various industrial applications",
     totalProducts: 4,
-    image: "/src/assets/products/brass-inserts.webp",
+    image: "assets/products/brass-inserts.webp",
     color: "from-accent/10 to-accent/5",
     subProducts: [
       { id: "heat-ultrasonic-insert", name: "Heat / Ultra Sonic Insert", description: "Heat and ultrasonic welding inserts" },
@@ -27,7 +27,7 @@ export const productCategories = [
     title: "BRASS FITTINGS",
     description: "Comprehensive range of brass pipe fittings and connectors",
     totalProducts: 4,
-    image: "/src/assets/products/brass_fittings.webp",
+    image: "assets/products/brass_fittings.webp",
     color: "from-primary/10 to-primary/5",
     subProducts: [
       { id: "electrofusion-fittings", name: "Electrofusion Fittings", description: "Electrofusion welding pipe fittings" },
@@ -42,7 +42,7 @@ export const productCategories = [
     title: "BRASS ELECTRIC FITTINGS", 
     description: "Electrical conduit fittings and cable gland accessories",
     totalProducts: 0,
-    image: "/src/assets/products/brass_electric_fittings.webp",
+    image: "assets/products/brass_electric_fittings.webp",
     color: "from-secondary/10 to-secondary/5",
     subProducts: []
   },
@@ -51,7 +51,7 @@ export const productCategories = [
     title: "BRASS PRECISION TURNED COMPONENTS",
     description: "CNC machined precision brass components to exact specifications",
     totalProducts: 0,
-    image: "/src/assets/products/brass_precision_turned_comp.webp",
+    image: "assets/products/brass_precision_turned_comp.webp",
     color: "from-accent/10 to-accent/5",
     subProducts: []
   },
@@ -60,7 +60,7 @@ export const productCategories = [
     title: "BRASS BUSH",
     description: "High-quality brass bushings for various mechanical applications",
     totalProducts: 0,
-    image: "/src/assets/products/brass-bushes2.webp",
+    image: "assets/products/brass-bushes2.webp",
     color: "from-primary/10 to-primary/5",
     subProducts: []
   },
@@ -69,7 +69,7 @@ export const productCategories = [
     title: "BRASS FORGED PARTS",
     description: "Hot forged brass components for heavy-duty applications",
     totalProducts: 0,
-    image: "/src/assets/products/brass_forged_parts.webp",
+    image: "assets/products/brass_forged_parts.webp",
     color: "from-secondary/10 to-secondary/5",
     subProducts: []
   },
@@ -78,7 +78,7 @@ export const productCategories = [
     title: "BRASS HARDWARE",
     description: "General brass hardware components and accessories",
     totalProducts: 0,
-    image: "/src/assets/products/brass_hardware.webp",
+    image: "assets/products/brass_hardware.webp",
     color: "from-accent/10 to-accent/5",
     subProducts: []
   },
@@ -87,7 +87,7 @@ export const productCategories = [
     title: "BRASS SANITARY",
     description: "Sanitary brass fittings and plumbing components",
     totalProducts: 0,
-    image: "/src/assets/details/brass_sanitary.webp",
+    image: "assets/details/brass_sanitary.webp",
     color: "from-primary/10 to-primary/5",
     subProducts: []
   },
@@ -96,7 +96,7 @@ export const productCategories = [
     title: "BRASS FASTNER",
     description: "High-quality brass fasteners and threaded components",
     totalProducts: 0,
-    image: "/src/assets/products/brass_fastners.webp",
+    image: "assets/products/brass_fastners.webp",
     color: "from-secondary/10 to-secondary/5",
     subProducts: []
   },
@@ -105,7 +105,7 @@ export const productCategories = [
     title: "VALVES",
     description: "High-quality brass valves for flow control applications",
     totalProducts: 0,
-    image: "/src/assets/products/valves.webp",
+    image: "assets/products/valves.webp",
     color: "from-accent/10 to-accent/5",
     subProducts: []
   }
