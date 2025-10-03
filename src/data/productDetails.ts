@@ -619,7 +619,7 @@ export const subProductDetails: Record<string, ProductDetail> = {
       "Standards: ISO 4762, DIN 912",
       "Corrosion Test: 1000+ hours salt spray"
     ],
-    cardImg: "/assets/products/brass_anchors_card.png",
+    cardImg: "/assets/products/sub_brass_anchors.webp",
     image: "/assets/details/sub_brass_anchors.webp",
     technicalSheet: "/downloads/brass-anchor-specs.pdf",
     catalog: "/downloads/anchor-fittings-catalog.pdf"
