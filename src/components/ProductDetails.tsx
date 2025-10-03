@@ -42,7 +42,7 @@ const ProductDetails = () => {
         "Corrosion resistant brass construction",
         "Lead-free composition available",
         "Multiple thread configurations",
-        "Precision CNC machined",
+        "Precision Advanced machined",
         "100% pressure tested"
       ],
       applications: [
@@ -58,7 +58,7 @@ const ProductDetails = () => {
     {
       id: "precision-turned",
       title: "Precision Turned Parts",
-      description: "CNC machined components manufactured to exact specifications with exceptional dimensional accuracy and surface finish quality.",
+      description: "Machinery machined components manufactured to exact specifications with exceptional dimensional accuracy and surface finish quality.",
       images: [facilityInterior, brassComponents],
       specifications: {
         "Material": "Brass CuZn37, CuZn39Pb3",

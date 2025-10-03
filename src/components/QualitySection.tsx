@@ -108,7 +108,7 @@ const QualitySection = () => {
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           {/* Facility Image */}
-          <div className="space-y-8">
+          <div className="space-y-8 my-24">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img 
                 src={facilityImage} 
@@ -254,13 +254,13 @@ const QualitySection = () => {
                 <Download className="mr-2 h-5 w-5" />
                 Quality Manual
               </Button>
-              <Button 
+              {/* <Button 
                 variant="outline" 
                 size="lg" 
                 className="border-primary/30 text-primary hover:bg-primary/5 font-semibold px-8 py-4"
               >
                 Request Audit Report
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ export const productCategories = [
   {
     id: "brass-precision-turned-components",
     title: "BRASS PRECISION TURNED COMPONENTS",
-    description: "CNC machined precision brass components to exact specifications",
+    description: "Advanced machined precision brass components to exact specifications",
     totalProducts: 0,
     image: "/assets/products/brass_precision_turned_comp.webp",
     color: "from-accent/10 to-accent/5",

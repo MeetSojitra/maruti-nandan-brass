@@ -7,7 +7,7 @@ const CompanySection = () => {
     { year: "2000", event: "Company Founded", description: "Started with vision for precision manufacturing" },
     { year: "2001", event: "ISO Certification", description: "Achieved ISO 9001:2000 quality certification" },
     { year: "2008", event: "Export Expansion", description: "Extended operations to international markets" },
-    { year: "2015", event: "Advanced CNC", description: "Invested in state-of-the-art CNC machinery" },
+    { year: "2015", event: "Advanced Machinery", description: "Invested in state-of-the-art Machinery machinery" },
     { year: "2020", event: "Digital Transformation", description: "Implemented Industry 4.0 technologies" },
     { year: "2023", event: "Sustainability Initiative", description: "Launched green manufacturing program" }
   ];

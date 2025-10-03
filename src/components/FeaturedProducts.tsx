@@ -31,7 +31,7 @@ const FeaturedProducts = () => {
       id: 4,
       title: "Turned Components",
       image: turnedComponents,
-      description: "Precision CNC machined brass parts"
+      description: "Precision Advanced machined brass parts"
     }
   ];
 

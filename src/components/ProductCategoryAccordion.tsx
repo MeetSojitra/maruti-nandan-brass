@@ -189,7 +189,7 @@ const ProductCategoryAccordion = () => {
     {
       id: "turned-components",
       title: "BRASS PRECISION TURNED COMPONENTS",
-      description: "CNC machined precision brass components to exact specifications",
+      description: "Advanced machined precision brass components to exact specifications",
       totalProducts: 20,
       products: [
         {

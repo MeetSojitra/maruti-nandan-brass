@@ -14,7 +14,7 @@ const ProductCategories = () => {
     {
       icon: Cog,
       title: "Precision Turned Parts",
-      description: "CNC machined components with tight tolerances",
+      description: "Advanced machined components with tight tolerances",
       features: ["±0.01mm Tolerance", "Surface Finish Ra 0.8", "Custom Specifications"],
       color: "border-accent/30 hover:border-accent/60"
     },
@@ -80,7 +80,7 @@ const ProductCategories = () => {
                 Manufacturing Excellence
               </h3>
               <p className="text-white/90 font-inter">
-                State-of-the-art CNC machinery and quality control systems
+                State-of-the-art Machinery machinery and quality control systems
               </p>
             </div>
           </div>

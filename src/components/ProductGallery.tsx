@@ -10,7 +10,7 @@ const ProductGallery = () => {
     {
       src: manufacturingProcess,
       title: "Manufacturing Excellence",
-      description: "State-of-the-art CNC machining for precision components"
+      description: "State-of-the-art Advanced machining for precision components"
     },
     {
       src: qualityControl,

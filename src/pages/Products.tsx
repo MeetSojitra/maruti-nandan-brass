@@ -155,7 +155,7 @@ const Products = () => {
               </h2>
               <p className="text-lg text-muted-foreground mb-6 font-inter">
                 Every component is manufactured to precise specifications using advanced
-                CNC machinery and rigorous quality control processes.
+                Advanced machinery and rigorous quality control processes.
               </p>
 
               <div className="space-y-3 mb-8">
@@ -173,10 +173,10 @@ const Products = () => {
                   <Download className="mr-2 h-4 w-4" />
                   Download Catalog
                 </Button>
-                <Button variant="outline" className="border-accent text-accent hover:bg-accent/10 hover:border-accent">
+                {/* <Button variant="outline" className="border-accent text-accent hover:bg-accent/10 hover:border-accent">
                   <FileText className="mr-2 h-4 w-4" />
                   Technical Drawings
-                </Button>
+                </Button> */}
               </div>
             </div>
 
@@ -184,23 +184,8 @@ const Products = () => {
               <h3 className="text-xl font-bold text-primary mb-4 font-poppins">Manufacturing Excellence</h3>
               <p className="text-muted-foreground mb-6 font-inter">
                 We manufacture precision brass components to exact specifications using advanced
-                CNC machinery and rigorous quality control processes for consistent quality delivery.
+                Machinery machinery and rigorous quality control processes for consistent quality delivery.
               </p>
-
-              <div className="space-y-4 mb-6">
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Minimum Order</span>
-                  <span className="text-sm font-medium text-primary">100 pieces</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Lead Time</span>
-                  <span className="text-sm font-medium text-primary">2-4 weeks</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Prototype</span>
-                  <span className="text-sm font-medium text-primary">3-5 days</span>
-                </div>
-              </div>
 
               <Link to="/contact">
                 <Button className="w-full bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-brass">

@@ -50,8 +50,8 @@ const About = () => {
               
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-card border border-border rounded-lg p-4 text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">15+</div>
-                  <div className="text-sm text-muted-foreground">CNC Machines</div>
+                  <div className="text-2xl font-bold text-primary mb-1">20+</div>
+                  <div className="text-sm text-muted-foreground">Advanced Machines</div>
                 </div>
                 <div className="bg-card border border-border rounded-lg p-4 text-center">
                   <div className="text-2xl font-bold text-primary mb-1">5000</div>
@@ -122,7 +122,7 @@ const About = () => {
               <Building2 className="h-12 w-12 text-secondary mx-auto mb-4" />
               <h3 className="text-xl font-bold text-primary mb-2 font-poppins">Production Team</h3>
               <p className="text-muted-foreground font-inter">
-                Expert machinists operating state-of-the-art CNC equipment
+                Expert machinists operating state-of-the-art Machinery equipment
               </p>
             </div>
           </div>

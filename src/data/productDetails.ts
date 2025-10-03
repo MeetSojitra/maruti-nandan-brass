@@ -54,9 +54,9 @@ export const productDetails: Record<string, ProductDetail> = {
   "brass-precision-turned-components": {
     id: "brass-precision-turned-components",
     title: "BRASS PRECISION TURNED COMPONENTS",
-    description: "Our precision turned brass components are manufactured using state-of-the-art CNC machinery to deliver exceptional accuracy and surface finish. Each component is crafted from high-grade brass alloys and undergoes rigorous quality control to ensure dimensional accuracy within ±0.01mm tolerance.",
+    description: "Our precision turned brass components are manufactured using state-of-the-art Advanced machinery to deliver exceptional accuracy and surface finish. Each component is crafted from high-grade brass alloys and undergoes rigorous quality control to ensure dimensional accuracy within ±0.01mm tolerance.",
     features: [
-      "CNC precision machining with ±0.01mm tolerance",
+      "Advanced precision machining with ±0.01mm tolerance",
       "High-grade CW617N and CW614N brass alloys",
       "Surface finish Ra 0.8 to Ra 3.2",
       "Custom designs and specifications available",
