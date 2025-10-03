@@ -83,7 +83,7 @@ const ProductDetail = () => {
                   </>
                 )}
                 <span className="text-primary">{productDetail.title}</span>
-                {isMainProduct && (
+                {/* {isMainProduct && (
                   <span className="ml-4">
                     <Link to="/products">
                       <Button variant="outline" size="sm">
@@ -92,16 +92,21 @@ const ProductDetail = () => {
                       </Button>
                     </Link>
                   </span>
-                )}
+                )} */}
               </div>
-              {isSubProduct && (
+              {isSubProduct ? (
                 <Link to={`/products/${categoryId}`}>
                   <Button variant="outline" size="sm">
                     <ArrowLeft className="mr-2 h-4 w-4" />
                     Back to {category?.title} Sub-Products
                   </Button>
                 </Link>
-              )}
+              ): (<Link to="/products">
+                      <Button variant="outline" size="sm">
+                        <ArrowLeft className="mr-2 h-4 w-4" />
+                        Back to Products
+                      </Button>
+                    </Link>)}
             </div>
           </div>
         </section>
