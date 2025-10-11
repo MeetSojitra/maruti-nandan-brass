@@ -104,17 +104,15 @@ const Header = () => {
                   >
                     <Link
                       to={item.href}
-                      className={`relative text-sm font-medium transition-all duration-300 hover:text-secondary group ${
-                        isActive(item.href)
+                      className={`relative text-sm font-medium transition-all duration-300 hover:text-secondary group ${isActive(item.href)
                           ? "text-secondary"
                           : "text-muted-foreground"
-                      }`}
+                        }`}
                     >
                       {item.name}
                       <span
-                        className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full ${
-                          isActive(item.href) ? "w-full" : ""
-                        }`}
+                        className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full ${isActive(item.href) ? "w-full" : ""
+                          }`}
                       ></span>
                     </Link>
 
@@ -140,11 +138,10 @@ const Header = () => {
                             >
                               <Link
                                 to={`/products/${category.id}`}
-                                className={`flex items-center justify-between w-full px-3 py-2 text-sm text-muted-foreground hover:text-secondary hover:bg-muted/50 rounded-md transition-colors ${
-                                  category.subProducts.length > 0
+                                className={`flex items-center justify-between w-full px-3 py-2 text-sm text-muted-foreground hover:text-secondary hover:bg-muted/50 rounded-md transition-colors ${category.subProducts.length > 0
                                     ? ""
                                     : "justify-start"
-                                }`}
+                                  }`}
                               >
                                 <span>{category.title}</span>
                                 {category.subProducts.length > 0 && (
@@ -200,17 +197,15 @@ const Header = () => {
                 ) : (
                   <Link
                     to={item.href}
-                    className={`relative text-sm font-medium transition-all duration-300 hover:text-secondary group ${
-                      isActive(item.href)
+                    className={`relative text-sm font-medium transition-all duration-300 hover:text-secondary group ${isActive(item.href)
                         ? "text-secondary"
                         : "text-muted-foreground"
-                    }`}
+                      }`}
                   >
                     {item.name}
                     <span
-                      className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full ${
-                        isActive(item.href) ? "w-full" : ""
-                      }`}
+                      className={`absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all duration-300 group-hover:w-full ${isActive(item.href) ? "w-full" : ""
+                        }`}
                     ></span>
                   </Link>
                 )}
@@ -221,12 +216,15 @@ const Header = () => {
           {/* Contact Info & CTA */}
           <div className="hidden xl:flex items-center space-x-4">
             {/* <LanguageSelector /> */}
-            <Button
-              size="sm"
-              className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
-            >
-              Get Quote
-            </Button>
+            <Link to="/contact">
+              <Button
+                size="sm"
+                className="bg-secondary text-secondary-foreground hover:bg-secondary/90"
+              >
+                Get Quote
+              </Button>
+            </Link>
+
           </div>
 
           {/* Tablet & Mobile Controls */}
@@ -265,11 +263,10 @@ const Header = () => {
                         onOpenChange={setMobileProductsOpen}
                       >
                         <CollapsibleTrigger
-                          className={`flex items-center justify-between w-full text-lg font-medium transition-colors hover:text-secondary p-2 rounded-lg hover:bg-muted/50 ${
-                            isActive(item.href)
+                          className={`flex items-center justify-between w-full text-lg font-medium transition-colors hover:text-secondary p-2 rounded-lg hover:bg-muted/50 ${isActive(item.href)
                               ? "text-secondary bg-muted/30"
                               : "text-muted-foreground"
-                          }`}
+                            }`}
                         >
                           <Link
                             to={item.href}
@@ -279,9 +276,8 @@ const Header = () => {
                             {item.name}
                           </Link>
                           <ChevronDown
-                            className={`w-4 h-4 transition-transform ${
-                              mobileProductsOpen ? "rotate-180" : ""
-                            }`}
+                            className={`w-4 h-4 transition-transform ${mobileProductsOpen ? "rotate-180" : ""
+                              }`}
                           />
                         </CollapsibleTrigger>
                         <CollapsibleContent className="ml-4 mt-2 space-y-2">
@@ -309,11 +305,10 @@ const Header = () => {
                         key={item.name}
                         to={item.href}
                         onClick={() => setIsOpen(false)}
-                        className={`text-lg font-medium transition-colors hover:text-secondary p-2 rounded-lg hover:bg-muted/50 ${
-                          isActive(item.href)
+                        className={`text-lg font-medium transition-colors hover:text-secondary p-2 rounded-lg hover:bg-muted/50 ${isActive(item.href)
                             ? "text-secondary bg-muted/30"
                             : "text-muted-foreground"
-                        }`}
+                          }`}
                       >
                         {item.name}
                       </Link>
